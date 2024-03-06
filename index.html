@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>내비게이션 및 푸터 - 쿠팡(Coupang)</title>
+    <link rel="icon" href="/assets/favicon/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/stylesheets/main.css" />
+    <script type="module" src="./js/main.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- 헤더 영역 -->
+      <h1 class="sr-only">Coupang</h1>
+      <div class="header__inner">
+        <button class="button--category">
+          <svg
+            width="30"
+            height="30"
+            viewBox="0 0 30 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M30 6H0V0H30V6Z" fill="white" />
+            <path d="M30 18H0V12H30V18Z" fill="white" />
+            <path d="M0 30H30V24H0V30Z" fill="white" />
+          </svg>
+          카테고리
+        </button>
+      </div>
+    </header>
+
+    <nav class="navigation">
+      <!-- 내비게이션 영역 -->
+      <h2 class="sr-only">카테고리 네비게이션</h2>
+
+      <div class="navigation__inner">
+        <!-- 카테고리별 내비게이션(메뉴) 영역 -->
+        <ul class="navigation__list first-depth">
+          <li>
+            <a href="#" role="button">
+              <i class="icon-clothes"></i>
+              <span>패션의류/잡화</span>
+            </a>
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">여성패션</a>
+                <ul class="third-depth">
+                  <li><a href="/">의류</a></li>
+                  <li><a href="/">속옷/잠옷</a></li>
+                  <li><a href="/">신발</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">남성패션</a>
+                <ul class="third-depth">
+                  <li><a href="/">의류</a></li>
+                  <li><a href="/">속옷/잠옷</a></li>
+                  <li><a href="/">신발</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">유아동패션</a>
+                <ul class="third-depth">
+                  <li><a href="/">의류</a></li>
+                  <li><a href="/">속옷/잠옷</a></li>
+                  <li><a href="/">신발</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-beauty"></i>
+              <span>뷰티</span></a
+            >
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">향수</a>
+                <ul class="third-depth">
+                  <li><a href="/">여성</a></li>
+                  <li><a href="/">남성</a></li>
+                  <li><a href="/">남녀공용</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-baby"></i>
+              <span>출산유아동</span></a
+            >
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">향수</a>
+                <ul class="third-depth">
+                  <li><a href="/">여성</a></li>
+                  <li><a href="/">남성</a></li>
+                  <li><a href="/">남녀공용</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-foods"></i>
+              <span>식품</span></a
+            >
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">향수</a>
+                <ul class="third-depth">
+                  <li><a href="/">여성</a></li>
+                  <li><a href="/">남성</a></li>
+                  <li><a href="/">남녀공용</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-kitchenware"></i>
+              <span>주방용품</span></a
+            >
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">향수</a>
+                <ul class="third-depth">
+                  <li><a href="/">여성</a></li>
+                  <li><a href="/">남성</a></li>
+                  <li><a href="/">남녀공용</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-houseware"></i>
+              <span>생활용품</span></a
+            >
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">향수</a>
+                <ul class="third-depth">
+                  <li><a href="/">여성</a></li>
+                  <li><a href="/">남성</a></li>
+                  <li><a href="/">남녀공용</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-interior"></i>
+              <span>홈인테리어</span></a
+            >
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">향수</a>
+                <ul class="third-depth">
+                  <li><a href="/">여성</a></li>
+                  <li><a href="/">남성</a></li>
+                  <li><a href="/">남녀공용</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-appliances"></i>
+              <span>가전디지털</span></a
+            >
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">향수</a>
+                <ul class="third-depth">
+                  <li><a href="/">여성</a></li>
+                  <li><a href="/">남성</a></li>
+                  <li><a href="/">남녀공용</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-sports"></i>
+              <span>스포츠</span></a
+            >
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">향수</a>
+                <ul class="third-depth">
+                  <li><a href="/">여성</a></li>
+                  <li><a href="/">남성</a></li>
+                  <li><a href="/">남녀공용</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-car"></i>
+              <span>자동차용품</span></a
+            >
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">향수</a>
+                <ul class="third-depth">
+                  <li><a href="/">여성</a></li>
+                  <li><a href="/">남성</a></li>
+                  <li><a href="/">남녀공용</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-book"></i>
+              <span>도서음반</span></a
+            >
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">향수</a>
+                <ul class="third-depth">
+                  <li><a href="/">여성</a></li>
+                  <li><a href="/">남성</a></li>
+                  <li><a href="/">남녀공용</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-toy"></i>
+              <span>완구취미</span></a
+            >
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">향수</a>
+                <ul class="third-depth">
+                  <li><a href="/">여성</a></li>
+                  <li><a href="/">남성</a></li>
+                  <li><a href="/">남녀공용</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-stationery"></i>
+              <span>문구오피스</span></a
+            >
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">향수</a>
+                <ul class="third-depth">
+                  <li><a href="/">여성</a></li>
+                  <li><a href="/">남성</a></li>
+                  <li><a href="/">남녀공용</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-pet"></i>
+              <span>반려동물</span></a
+            >
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">향수</a>
+                <ul class="third-depth">
+                  <li><a href="/">여성</a></li>
+                  <li><a href="/">남성</a></li>
+                  <li><a href="/">남녀공용</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-travel"></i>
+              <span>여행티켓</span></a
+            >
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">향수</a>
+                <ul class="third-depth">
+                  <li><a href="/">여성</a></li>
+                  <li><a href="/">남성</a></li>
+                  <li><a href="/">남녀공용</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" role="button">
+              <i class="icon-theme"></i>
+              <span style="padding-right: 4px">테마관</span>
+              <img src="./assets/icon/new.svg" alt="new"
+            /></a>
+            <ul class="second-depth">
+              <li>
+                <a href="#" role="button">스킨케어</a>
+                <ul class="third-depth">
+                  <li><a href="/">스킨</a></li>
+                  <li><a href="/">로션</a></li>
+                  <li><a href="/">에센스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button">메이크업</a>
+                <ul class="third-depth">
+                  <li><a href="/">아이 메이크업</a></li>
+                  <li><a href="/">베이스 메이크업</a></li>
+                  <li><a href="/">립 메이크업</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="main">
+      <!-- 메인 콘텐츠 영역 -->
+    </main>
+
+    <footer class="footer">
+      <!-- 푸터 영역 -->
+      <div class="footer-layer1">
+        <div class="layer1-content">
+          <a href="/">인재채용</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/">입점 / 제휴문의</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/">공지사항</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/">고객의 소리</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/"><b>개인정보 처리방침</b></a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/">쿠팡페이 이용약관</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/"><b>쿠팡페이 개인정보 처리방침</b></a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/">신뢰관리센터</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/">제휴마케팅</a>
+          <span class="divider" aria-hidden="true">ㅣ</span>
+          <a href="/">광고안내</a>
+        </div>
+      </div>
+      <div class="footer-layer2">
+        <div class="footer-logo">Coupang</div>
+        <address>
+          <span>상호명 및 호스팅 서비스 제공 : 쿠팡 ㈜</span>
+          <span>대표이사 : 강한승, 박대준</span>
+          <span>서울시 송파구 송파대로 570</span>
+          <span>사업자 등록번호 : 120-88-00767</span>
+          <span>통신판매업신고 : 2017-서울송파-0680</span>
+        </address>
+        <div class="contanct-info">
+          <p class="contant-center">
+            <span><b>365고객센터</b></span>
+            <span class="divider"></span>
+            <span>전자금융거래분쟁처리담당</span>
+          </p>
+          <span class="contact-number"
+            ><a href="tel:15777011">1577-7011</a></span
+          >
+          <span>서울시 송파구 송파대로 570</span>
+          <span
+            ><a href="mailto:help@coupang.com?subject=문의사항"
+              >email : help@coupang.com</a
+            ></span
+          >
+        </div>
+        <div class="safe-service">
+          <b>우리은행 채무지급보증 안내</b>
+          <p>
+            당사는 고객님이 현금 결제한 금액에 대해 우리은행과 채무지급보증
+            계약을 체결하여 안전거래를 보장하고 있습니다.
+          </p>
+        </div>
+      </div>
+      <div class="footer-layer3">
+        <div class="layer3-content">
+          <div class="copyright">
+            사이버몰 내 판매되는 상품 중에는 쿠팡에 등록한 개별 판매자가
+            판매하는 마켓플레이스(오픈마켓) 상품이 포함되어 있습니다.
+            <br />
+            마켓플레이스(오픈마켓) 상품의 경우 쿠팡은 통신판매중개자이며
+            통신판매의 당사자가 아닙니다.
+            <br />
+            쿠팡은 마켓플레이스(오픈마켓)상품, 거래정보 및 거래 등에 대하여
+            책임을 지지 않습니다.
+            <br />
+            쿠팡은 소비자 보호와 안전거래를 위해
+            신뢰관리센터(CM112@coupang.com)를 운영하고 있으며, 관련 분쟁이
+            발생할 경우 별도의 분쟁 처리절차에 의거 분쟁이 처리됩니다.
+            <br />
+            Copyright © Coupang Corp. 2010-2024 All Rights Reserved.
+          </div>
+          <div class="sns">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./assets/icon/sns-facebook.svg" alt="facebook" />
+            </a>
+            <a
+              href="https://section.blog.naver.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./assets/icon/sns-naver-blog.svg" alt="naver blog" />
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              class="instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./assets/icon/sns-instagram.svg" alt="instagram" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
